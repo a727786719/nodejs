@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "0.0.1",
+  "description": "nodejs实战",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a727786719/nodejs.git"
+  },
+  "author": "Chen Pengchao <chenpengchao_qt@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a727786719/nodejs/issues"
+  },
+  "homepage": "https://github.com/a727786719/nodejs#readme"
+}
