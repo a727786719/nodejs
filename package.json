@@ -4,7 +4,10 @@
   "description": "nodejs实战",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm run clean && babel src -d target --watch",
+    "compile": "npm run clean && babel src -d target",
+    "clean": "rm -rf target"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,18 @@
   "bugs": {
     "url": "https://github.com/a727786719/nodejs/issues"
   },
-  "homepage": "https://github.com/a727786719/nodejs#readme"
+  "homepage": "https://github.com/a727786719/nodejs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-es2015-node4": "^2.0.3",
+    "babel-preset-stage-0": "^6.5.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.8",
+    "project-core": "^0.0.16",
+    "serve-static": "^1.10.2",
+    "debug": "^2.2.0"
+  }
 }
